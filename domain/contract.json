@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "职业教育资源授权",
+  "source_context": "https://world.people.com.cn/n1/2026/0924/c1002-40804903.html",
+  "actors": [
+    "资源提供院校",
+    "接收院校",
+    "版权管理员"
+  ],
+  "states": [
+    "登记",
+    "授权",
+    "组包",
+    "交付",
+    "撤回"
+  ],
+  "invariants": [
+    "地域许可",
+    "依赖图谱",
+    "授权快照",
+    "半成品清理"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09303-006-A",
+      "actor": "资源提供院校",
+      "state": "登记"
+    },
+    {
+      "case_id": "09303-006-B",
+      "actor": "版权管理员",
+      "state": "授权"
+    }
+  ],
+  "tags": [
+    "resource-licensing",
+    "package-provenance"
+  ]
+}
